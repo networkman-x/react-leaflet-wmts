@@ -91,8 +91,7 @@ let _default = _leaflet.default.TileLayer.extend({
   },
   getDefaultMatrix: function getDefaultMatrix() {
     /**
-     * the matrix3857 represents the projection
-     * for in the IGN WMTS for the google coordinates.
+     * 天地图服务范围
      */
     let matrixIds3857 = new Array(22);
 
